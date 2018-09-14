@@ -1,0 +1,103 @@
+footer, #fellows, #reward, #hunters, #ring, #join, #contact{
+    margin-top: 5%;
+}
+
+.pills{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.most_wanted{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*fellows images*/
+.card-img{
+    position: relative;
+	opacity: 0.5;
+}
+
+.texte_Gandalf{
+    position: absolute; top:20%; left:30%; width:40%; height:40%; z-index:2;
+	border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+	font-size: 100%;
+	color : black;
+	background-color: white;
+	opacity: 0.75;
+	
+}
+
+.card-img:hover{
+    opacity: 1;
+}
+
+.card-img:hover ~ .texte_Gandalf{
+    display: none;
+}
+/*fellow images*/
+
+#reward{
+    margin: auto;
+    padding: auto;
+}
+
+.reward_img{
+    height: 70%;
+    width: 70%;
+}
+
+.hunter_img{
+    height: 80%;
+    width: 30%;
+}
+
+.army_img{
+    height: 70%;
+    width: 70%;
+}
+
+/*form*/
+.formulaire {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+input, select, textarea {
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+.formulaire{
+    width: 90%;
+}
+  
+input:focus, textarea:focus {
+    border-color: #000;
+}
+/*form*/
+
+footer{
+    background-color: #000;
+    opacity: 0.7;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: grey;
+    text-shadow: -2px -2px 2px white;
+  }
+
+footer ul{
+    list-style: none;
+}
